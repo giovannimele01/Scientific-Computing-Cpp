@@ -1,0 +1,3 @@
+C:/Users/giovi/OneDrive/Documenti/Primo Semestre AA 2023-2024/APC/CLion/Assignment3_final/Assignment3_initial/cmake-build-debug/CMakeFiles/Assignment3_initial.dir
+C:/Users/giovi/OneDrive/Documenti/Primo Semestre AA 2023-2024/APC/CLion/Assignment3_final/Assignment3_initial/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/giovi/OneDrive/Documenti/Primo Semestre AA 2023-2024/APC/CLion/Assignment3_final/Assignment3_initial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
