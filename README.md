@@ -1,8 +1,41 @@
-This repository aims to demonstrate, through several small projects written exclusively in C++, 
-the advantages of object-oriented programming and the computational efficiency of this language.
+# C++ OOP & Computational Efficiency Projects
 
-1) The first project features an implementation of the well-known Adam optimization method, tested on functions in $\mathbb{R}^n$ composed of sums of monomials.
+This repository demonstrates the advantages of **Object-Oriented Programming (OOP)** and the high **computational efficiency** of the C++ language through three specialized projects.
 
-2) The second project involves the construction of a feedforward neural network, offering various selectable activation functions. 
+---
 
-3) Finally, the third project showcases the benefits of using parallel programming for matrix calculations, following the 'split $\to$ operations $\to$ gather' workflow typical of parallel computing with MPI.
+## Projects Overview
+
+### 1. Adam Optimization Method
+A custom implementation of the widely-used **Adam** (Adaptive Moment Estimation) optimizer.
+* **Target:** Tested on functions in $\mathbb{R}^n$ composed of sums of monomials.
+* **Key Features:** Efficient gradient management and adaptive learning rate logic implemented from scratch.
+
+### 2. Feedforward Neural Network
+A modular construction of a Feedforward Neural Network (FNN).
+* **Customization:** Offers a variety of selectable activation functions (e.g., ReLU, Sigmoid, Tanh).
+* **Design:** Leverages OOP principles to handle layers, weights, and biases as distinct, reusable objects.
+
+### 3. Parallel Matrix Computing with MPI
+A demonstration of the performance gains achieved through parallel programming for matrix calculations.
+* **Workflow:** Follows the standard parallel computing pattern: **Split** $\to$ **Operations** $\to$ **Gather**.
+* **Technology:** Developed using the **MPI** (Message Passing Interface) standard to distribute workloads across multiple processes.
+
+---
+
+## Technical Requirements
+
+To compile and run these projects, you will need:
+* A **C++ compiler** (supporting C++17 or later).
+* An **MPI implementation** (such as OpenMPI or MPICH) for the parallel computing project.
+* **CMake** (recommended for build management).
+
+## Why C++?
+The choice of C++ for these implementations is driven by:
+1.  **Performance:** Minimal overhead for intensive mathematical operations.
+2.  **Abstraction:** The ability to model complex mathematical structures through classes without sacrificing speed.
+3.  **Scalability:** Native support for high-performance computing (HPC) workflows.
+
+---
+
+> **Note:** This repository is intended for educational and demonstrative purposes, showcasing the synergy between software design and raw processing power.
